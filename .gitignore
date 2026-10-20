@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/.venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+backend/app/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Frontend Build
+frontend/dist/
+dist/
+
+# SQLite Database / Local Data
+*.db
+backend/*.db
+backend/finance_controller.db
+
+# Environment Files
+.env
+backend/.env
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
